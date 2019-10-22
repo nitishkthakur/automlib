@@ -22,7 +22,7 @@ class psoregressor:
         self.debug = debug
         self.param_dictionary = params
         self.lb = [50, 2, .1, .1, .01, 1]
-        self.ub = [1500, 8, 1, 1, .99, 40]
+        self.ub = [2500, 10, 1, 1, .90, 400]
         self.hyperparameters = ['n_estimators', 'max_depth', 'max_features', 'subsample', 'learning_rate', 'min_samples_leaf']
         self.cv = cv
         
