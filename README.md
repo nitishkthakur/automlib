@@ -18,3 +18,4 @@ import automlib
 model = automlib.psoregressor(population = 20,  maxiter = 30)
 model.fit(X = X_train, y = y_train)
 ```
+![Training Progress](/automlib_reg.png)
