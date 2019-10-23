@@ -23,7 +23,7 @@ Following are some of the key parameters to set in the model(reasonable defaults
 Increasing population and maxiter will yield better quality models but will take longer to produce results. Increasing the population parameter is more likely to give good results hovever, than increasing maxiter.  
 
 ## How to Use
-Initialize model:
+Initialize and fit model:
 ```
 import automlib
 
