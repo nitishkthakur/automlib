@@ -9,7 +9,7 @@ However, recently approaches using Bayesian Optimization, TPE have surfaced whic
 
 However, instead of providing a separate function/method for optimization, in automlib, it has been incorporated as part of the model wrapper. So there is no need to perform optimization separately - all we have to do is call the **fit** method and automlib optimizes the model automatically.
 
-# Description
+## Description
 automlib currently contains the following model classes: 
 * psoregressor
 * psoclassifier
@@ -22,7 +22,7 @@ Following are some of the key parameters to set in the model(reasonable defaults
 
 Increasing population and maxiter will yield better quality models but will take longer to produce results. Increasing the population parameter is more likely to give good results hovever, than increasing maxiter.  
 
-### How to Use
+## How to Use
 Initialize model:
 ```
 import automlib
